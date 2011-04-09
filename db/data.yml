@@ -1,0 +1,186 @@
+
+--- 
+hospitals: 
+  columns: 
+  - id
+  - hcode
+  - hname
+  records: 
+  - - "1"
+    - "10670"
+    - !binary |
+      4LiC4Lit4LiZ4LmB4LiB4LmI4LiZ
+
+  - - "2"
+    - "11496"
+    - !binary |
+      4LiE4LmI4Liy4Lii4Liq4Lij4Lij4Lie4Liq4Li04LiX4LiY4Li04Lib4Lij
+      4Liw4Liq4LiH4LiE4LmM
+
+  - - "3"
+    - "11492"
+    - !binary |
+      4LiE4LmI4Liy4Lii4Liq4Li44Lij4LiZ4Liy4Lij4Li1
+
+  - - "4"
+    - "13756"
+    - !binary |
+      4LiI4Li44Lis4Liy4Lil4LiH4LiB4Lij4LiT4LmM
+
+  - - "5"
+    - "10678"
+    - !binary |
+      4LmA4LiI4LmJ4Liy4Lie4Lij4Liw4Lii4Liy4Lii4Lih4Lij4Liy4LiK
+
+  - - "6"
+    - "14173"
+    - !binary |
+      4LiV4Liz4Lij4Lin4LiI
+
+  - - "7"
+    - "13778"
+    - !binary |
+      4LiY4Lij4Lij4Lih4Lio4Liy4Liq4LiV4Lij4LmM4LmA4LiJ4Lil4Li04Lih
+      4Lie4Lij4Liw4LmA4LiB4Li14Lii4Lij4LiV4Li0
+
+  - - "8"
+    - "10679"
+    - !binary |
+      4LiZ4LiE4Lij4Lib4LiQ4Lih
+
+  - - "9"
+    - "10713"
+    - !binary |
+      4LiZ4LiE4Lij4Lie4Li04LiH4LiE4LmM
+
+  - - "10"
+    - "10686"
+    - !binary |
+      4Lie4Lij4Liw4LiZ4Lix4LmI4LiH4LmA4LiB4Lil4LmJ4Liy
+
+  - - "11"
+    - "11481"
+    - !binary |
+      4Lie4Lij4Liw4Lih4LiH4LiB4Li44LiP4LmA4LiB4Lil4LmJ4Liy
+
+  - - "12"
+    - "10676"
+    - !binary |
+      4Lie4Li44LiX4LiY4LiK4Li04LiZ4Lij4Liy4LiK
+
+  - - "13"
+    - "10715"
+    - !binary |
+      4LmB4Lie4Lij4LmI
+
+  - - "14"
+    - "11482"
+    - !binary |
+      4Lig4Li54Lih4Li04Lie4Lil4Lit4LiU4Li44Lil4Lii4LmA4LiU4LiK
+
+  - - "15"
+    - "13780"
+    - !binary |
+      4Lih4Lir4Liy4Lij4Liy4LiK4LiZ4LiE4Lij4LmA4LiK4Li14Lii4LiH4LmD
+      4Lir4Lih4LmI
+
+  - - "16"
+    - "10666"
+    - !binary |
+      4Lih4Lir4Liy4Lij4Liy4LiK4LiZ4LiE4Lij4Lij4Liy4LiK4Liq4Li14Lih
+      4Liy
+
+  - - "17"
+    - "10680"
+    - !binary |
+      4Lih4Lir4Liy4Lij4Liy4LiK4LiZ4LiE4Lij4Lio4Lij4Li14LiY4Lij4Lij
+      4Lih4Lij4Liy4LiK
+
+  - - "18"
+    - "10677"
+    - !binary |
+      4Lij4Liy4LiK4Lia4Li44Lij4Li1
+
+  - - "19"
+    - "11472"
+    - !binary |
+      4Lij4Liy4LiK4Lin4Li04LiW4Li1
+
+  - - "20"
+    - "13781"
+    - !binary |
+      4Lij4Liy4Lih4Liy4LiY4Li04Lia4LiU4Li1
+
+  - - "21"
+    - "10672"
+    - !binary |
+      4Lil4Liz4Lib4Liy4LiH
+
+  - - "22"
+    - "11535"
+    - !binary |
+      4Lin4LiK4Li04Lij4Lie4Lii4Liy4Lia4Liy4Lil
+
+  - - "23"
+    - "13777"
+    - !binary |
+      4Lio4Lij4Li14LiZ4LiE4Lij4Li04LiZ4LiX4Lij4LmM
+
+  - - "24"
+    - "13814"
+    - !binary |
+      4Lio4Li04Lij4Li04Lij4Liy4LiK4Lie4Lii4Liy4Lia4Liy4Lil
+
+  - - "25"
+    - "22525"
+    - !binary |
+      4Lio4Li54LiZ4Lii4LmM4LmB4Lie4LiX4Lii4LmM4Lie4Lix4LiS4LiZ4Liy
+
+  - - "26"
+    - "10745"
+    - !binary |
+      4Liq4LiH4LiC4Lil4Liy
+
+  - - "27"
+    - "13779"
+    - !binary |
+      4Liq4LiH4LiC4Lil4Liy4LiZ4LiE4Lij4Li04LiZ4LiX4Lij4LmM
+
+  - - "28"
+    - "13758"
+    - !binary |
+      4Liq4Lih4LmA4LiU4LmH4LiI4Lie4Lij4Liw4LiZ4Liy4LiH4LmA4LiI4LmJ
+      4Liy4Liq4Li04Lij4Li04LiB4Li04LiV4Li04LmM
+
+  - - "29"
+    - "11478"
+    - !binary |
+      4Liq4Lih4LmA4LiU4LmH4LiI4Lie4Lij4Liw4Lib4Li04LmI4LiZ4LmA4LiB
+      4Lil4LmJ4Liy
+
+  - - "30"
+    - "10669"
+    - !binary |
+      4Liq4Lij4Lij4Lie4Liq4Li04LiX4LiY4Li04LmM4Lib4Lij4Liw4Liq4LiH
+      4LiE4LmM
+
+  - - "31"
+    - "10661"
+    - !binary |
+      4Liq4Lij4Liw4Lia4Li44Lij4Li1
+
+  - - "32"
+    - "10668"
+    - !binary |
+      4Liq4Li44Lij4Li04LiZ4LiX4Lij4LmM
+
+  - - "33"
+    - "11484"
+    - !binary |
+      4Lit4Liy4LiZ4Lix4LiZ4LiX4Lih4Lir4Li04LiU4Lil
+
+  - - "34"
+    - "10671"
+    - !binary |
+      4Lit4Li44LiU4Lij4LiY4Liy4LiZ4Li1
+

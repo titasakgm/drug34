@@ -11,8 +11,8 @@ gem 'nifty-generators'
 gem 'paperclip'
 gem 'mime-types'
 gem 'mocha'
-#gem 'jquery-rails'
 gem 'rack-mount'
+gem 'yaml_db'
 
 # Use unicorn as the web server
 # gem 'unicorn'
