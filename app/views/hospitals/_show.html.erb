@@ -1,0 +1,34 @@
+<%= javascript_include_tag "uploadify/swfobject", "uploadify/jquery.uploadify.v2.1.4.min" %>
+
+<% session_key_name = Rails.application.config.session_options[:key] %>
+
+<script type="text/javascript" charset="utf-8">
+
+jQuery.noConflict();
+
+jQuery(document).ready(function() {
+	jQuery('#upload_doc').click(function(event){
+		event.preventDefault();
+	});
+	jQuery('#upload_doc').uploadify({
+		'uploader': '/javascripts/uploadify/uploadify.swf',
+		'script': '/uploads/create',
+		'multi': false,
+		'cancelImg': '/images/cancel.png',
+		'scriptData': {
+			'<%= session_key_name %>': encodeURIComponent('<%= u cookies[session_key_name] %>'),
+			'authenticity_token': encodeURIComponent('<%= u form_authenticity_token if protect_against_forgery? %>'),
+			'hospital_id': '<%= @hospital.id %>',
+			'format': 'json'
+		},
+		onAllComplete: function(){
+			var id = @hospital.id;
+			location.href = "/hospitals/" + id;
+		}
+	});
+	jQuery('#upload_submit').click(function(event){
+		event.preventDefault();
+		jQuery('#upload_doc').uploadifyUpload();
+	});
+});
+</script>

@@ -1,0 +1,17 @@
+﻿<div class="upload">
+<b>Total Uploaded: <%= pluralize(@uploads.count, "File") %></b>
+<p>
+<% if @uploads.size > 0 %>
+	<ol>
+	<% @uploads.each do |upload| %>
+		<li class="<%= cycle('odd','even') %>">
+		<%= upload.doc_file_name %> (<%= upload.doc_file_size %> bytes)
+		<span style="float:right">
+		<%= button_to "X", hospital_upload_path(:hospital_id => @hospital,:id => upload), :method => :delete, :confirm => "Are you sure?", :class => "delete" %>
+		</span>
+		</li>
+	<% end %>
+	</ol>
+<% end %>
+<hr />		
+</div>

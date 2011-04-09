@@ -1,0 +1,12 @@
+<%= form_for @hospital do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <%= f.label :hcode %><br />
+    <%= f.text_field :hcode %>
+  </p>
+  <p>
+    <%= f.label :hname %><br />
+    <%= f.text_field :hname %>
+  </p>
+  <p><%= f.submit %></p>
+<% end %>
