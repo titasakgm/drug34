@@ -13,6 +13,7 @@ gem 'mime-types'
 gem 'mocha'
 gem 'rack-mount'
 gem 'yaml_db'
+gem 'jquery-rails'
 
 # Use unicorn as the web server
 # gem 'unicorn'

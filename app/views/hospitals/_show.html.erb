@@ -22,7 +22,7 @@ jQuery(document).ready(function() {
 			'format': 'json'
 		},
 		onAllComplete: function(){
-			var id = @hospital.id;
+			var id = '<%= @hospital.id %>';
 			location.href = "/hospitals/" + id;
 		}
 	});

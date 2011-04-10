@@ -1,5 +1,5 @@
 <% title h("โรงพยาบาล#{@hospital.hname}") %>
-<!-- %= render :partial => "show" % -->
+<%= render :partial => "show" %>
 <%= render :partial => "uploads/upload" %>
 <%= form_for ([@hospital, @hospital.uploads.new], :html => {:multipart => true}) do |f| %>
 	<%= f.hidden_field :hospital_id, "value" => @hospital.id %>

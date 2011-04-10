@@ -1,7 +1,7 @@
 ﻿<div class="upload">
-<b>Total Uploaded: <%= pluralize(@uploads.count, "File") %></b>
-<p>
 <% if @uploads.size > 0 %>
+<b>Total Uploaded: <%= pluralize(@uploads.size, "File") %></b>
+<p>
 	<ol>
 	<% @uploads.each do |upload| %>
 		<li class="<%= cycle('odd','even') %>">
@@ -12,6 +12,9 @@
 		</li>
 	<% end %>
 	</ol>
+<% else %>
+<b>Total Uploaded: 0 File</b>
+<p>
 <% end %>
-<hr />		
 </div>
+<hr />		
