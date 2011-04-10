@@ -19,7 +19,7 @@ Drug34::Application.configure do
   # just comment this out and Rails will serve the files
 
   # See everything in the log (default is :info)
-  config.log_level = :debug
+  config.log_level = :info
 
   # Use a different logger for distributed setups
   # config.logger = SyslogLogger.new
@@ -36,6 +36,7 @@ Drug34::Application.configure do
 
   # Disable delivery errors, bad email addresses will be ignored
   # config.action_mailer.raise_delivery_errors = false
+  config.action_mailer.default_url_options = { :host => '122.154.28.230/drug34' }
 
   # Enable threaded mode
   # config.threadsafe!
@@ -46,4 +47,6 @@ Drug34::Application.configure do
 
   # Send deprecation notices to registered listeners
   config.active_support.deprecation = :notify
+
+  config.active_record.timestamped_migrations = false
 end
